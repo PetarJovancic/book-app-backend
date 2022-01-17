@@ -19,6 +19,7 @@ app.use(passport.initialize());
 require('./middlewares/passport')(passport);
 
 app.use('/api/users', require('./routes/users'));
+app.use('/api/users', require('./routes/books'));
 
 const startApp = async () => {
 	try {

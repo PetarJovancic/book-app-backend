@@ -120,18 +120,6 @@ const validateEmail = async email => {
 	return user ? false : true;
 };
 
-const serializeUser = user => {
-	return {
-		_id: user._id,
-		username: user.username,
-		email: user.email,
-		name: user.name,
-		books: user.books,
-		updatedAt: user.updatedAt,
-		createdAt: user.createdAt,
-	};
-};
-
 const editedUser = async (req, res) => {
 	try {
 		const username = req.user.username;
@@ -308,7 +296,6 @@ module.exports = {
 	checkRole,
 	userLogin,
 	userRegister,
-	serializeUser,
 	allUsers,
 	searchUser,
 	deleteUser,

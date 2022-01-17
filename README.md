@@ -19,7 +19,7 @@ APP_PORT=<port>
 
 ### Requirements
 
-NodeJS installed on your system (12 or higher) -\*\* [NodeJS](https://nodejs.org)
+NodeJS installed on your system (14 or higher) -\*\* [NodeJS](https://nodejs.org)
 
 ### Usage
 
@@ -33,12 +33,23 @@ To execute app, run:
 
 ```
 npm run dev
+
 ```
 
 ### Using Docker
 
-To build and run Docker containers use the following command:
+To build Docker container use the following command:
 
 ```
-docker-compose up --build --remove-orphans
+
+docker build -t book-app-backend .
+
+```
+
+To run Docker container use the following command:
+
+```
+
+docker run -p 1337:1337 book-app-frontend
+
 ```
