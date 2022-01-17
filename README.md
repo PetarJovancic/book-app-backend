@@ -11,6 +11,8 @@
 
 ### Introduction
 
+This is backend server app for book web application
+
 ## Usage
 
 The app requires an `.env` file with the following variables:
