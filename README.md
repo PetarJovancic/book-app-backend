@@ -1,9 +1,13 @@
 # book-app-backend
 
+<img src="https://img.icons8.com/fluency/50/000000/node-js.png"/></span>
+&nbsp;&nbsp;&nbsp;
 <img src="https://img.icons8.com/color/48/000000/javascript--v1.png"
-     alt="Markdown Javascript icon"
-     height="50px"
 />&nbsp;&nbsp;&nbsp;
+<img src="https://img.icons8.com/color/50/000000/mongodb.png"/></span>
+&nbsp;&nbsp;&nbsp;
+<img src="https://img.icons8.com/fluency/48/000000/docker.png"/></span>
+&nbsp;&nbsp;&nbsp;
 
 ### Introduction
 
