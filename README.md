@@ -56,6 +56,6 @@ To run Docker container use the following command:
 
 ```
 
-docker run -p 1337:1337 book-app-frontend
+docker run -p 1337:1337 book-app-backend
 
 ```
