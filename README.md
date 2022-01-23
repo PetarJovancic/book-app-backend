@@ -42,6 +42,13 @@ npm run dev
 
 ```
 
+To run tests:
+
+```
+npm run test
+
+```
+
 ### Using Docker
 
 To build Docker container use the following command:
